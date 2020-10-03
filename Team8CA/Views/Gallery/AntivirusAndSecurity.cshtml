@@ -1,7 +1,37 @@
-﻿
-@{
-    ViewData["Title"] = "AntivirusAndSecurity";
-}
+﻿@{ ViewData["Title"] = "AntivirusAndSecurity";
+                string[] imges = (string[])ViewData["anti"]; }
 
 <h1>AntivirusAndSecurity</h1>
 
+
+@*<table>
+        @for (int i = 0; i < imgs.Length + 1; i += 3)
+        {
+            <tr>
+
+                @for (int j = 0; j < 3 && i + j < imgs.Length; j++)
+                {
+                <td>
+                    @images from database@
+                    @*{  string url = ViewData["url_prefix"] +
+                        imgs[i + j] + ViewData["url_postfix"];}
+
+                <div class="container">
+                    <img src=@url width="350" height="235" />
+                    <div class="middle">
+                        <div class="text">View</div>
+                    </div>
+                    <div class="middle2">
+                        <div class="text">To cart</div>
+                    </div>
+                </div>
+
+                </td>
+                }
+            </tr>
+        }
+    </table>*@
+
+<div>
+    <a href="/Gallery">Back to Product Gallery</a>
+</div>
