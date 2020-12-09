@@ -1,10 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using System.Web;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using X.PagedList;
 //using X.PagedList.Mvc;
+using X.PagedList.Mvc.Core;
 using Team8CA.DataAccess;
 using Team8CA.Models;
-using X.PagedList;
 //using Team8CA.Services;
 
 namespace Team8CA.Controllers
